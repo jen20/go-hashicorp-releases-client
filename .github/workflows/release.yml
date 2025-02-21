@@ -1,0 +1,45 @@
+name: Release Library
+
+on:
+  workflow_dispatch:
+    inputs:
+      semantic_version:
+        description: "Semantic Version (eg v1.0.1)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Release Library
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Nix
+        uses: cachix/install-nix-action@v17
+        with:
+          extra_nix_config: |
+            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+      - name: Write Release Body
+        run: |
+          echo "changelog<<EOF" >> $GITHUB_ENV
+          awk -v target_release="${{ github.event.inputs.semantic_version }}" -f meta/extract-changelog.awk CHANGELOG.md >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+      - name: Build
+        run: nix develop --command go build -v ./...
+      - name: Run Tests
+        run: nix develop --command go test -v ./...
+      - name: Lint
+        run: nix develop --command golangci-lint run
+      - name: Create Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          release_name: ${{ github.event.inputs.semantic_version }}
+          tag_name: ${{ github.event.inputs.semantic_version }}
+          body: ${{ env.changelog }}
+          draft: false
+          prerelease: false

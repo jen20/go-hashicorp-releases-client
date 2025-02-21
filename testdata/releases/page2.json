@@ -1,0 +1,884 @@
+[
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.2/waypoint_0.7.2_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.2/waypoint_0.7.2_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.2/waypoint_0.7.2_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.2/waypoint_0.7.2_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.2/waypoint_0.7.2_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.2/waypoint_0.7.2_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.2/waypoint_0.7.2_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2022-02-24T21:05:07.000Z"
+    },
+    "timestamp_created": "2022-02-24T21:05:07.000Z",
+    "timestamp_updated": "2022-02-24T21:05:07.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.7.2/waypoint_0.7.2_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.7.2/waypoint_0.7.2_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.7.2/waypoint_0.7.2_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.7.2"
+  },
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.1/waypoint_0.7.1_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.1/waypoint_0.7.1_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.1/waypoint_0.7.1_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.1/waypoint_0.7.1_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.1/waypoint_0.7.1_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.1/waypoint_0.7.1_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.1/waypoint_0.7.1_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2022-01-25T22:45:26.000Z"
+    },
+    "timestamp_created": "2022-01-25T22:45:26.000Z",
+    "timestamp_updated": "2022-01-25T22:45:26.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.7.1/waypoint_0.7.1_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.7.1/waypoint_0.7.1_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.7.1/waypoint_0.7.1_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.7.1"
+  },
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.0/waypoint_0.7.0_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.0/waypoint_0.7.0_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.0/waypoint_0.7.0_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.0/waypoint_0.7.0_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.0/waypoint_0.7.0_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.0/waypoint_0.7.0_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.7.0/waypoint_0.7.0_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2022-01-13T19:17:12.000Z"
+    },
+    "timestamp_created": "2022-01-13T19:17:12.000Z",
+    "timestamp_updated": "2022-01-13T19:17:12.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.7.0/waypoint_0.7.0_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.7.0/waypoint_0.7.0_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.7.0/waypoint_0.7.0_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.7.0"
+  },
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.3/waypoint_0.6.3_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.3/waypoint_0.6.3_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.3/waypoint_0.6.3_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.3/waypoint_0.6.3_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.3/waypoint_0.6.3_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.3/waypoint_0.6.3_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.3/waypoint_0.6.3_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2021-12-10T18:03:12.000Z"
+    },
+    "timestamp_created": "2021-12-10T18:03:12.000Z",
+    "timestamp_updated": "2021-12-10T18:03:12.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.6.3/waypoint_0.6.3_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.6.3/waypoint_0.6.3_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.6.3/waypoint_0.6.3_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.6.3"
+  },
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.2/waypoint_0.6.2_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.2/waypoint_0.6.2_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.2/waypoint_0.6.2_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.2/waypoint_0.6.2_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.2/waypoint_0.6.2_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.2/waypoint_0.6.2_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.2/waypoint_0.6.2_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2021-11-04T19:15:36.000Z"
+    },
+    "timestamp_created": "2021-11-04T19:15:36.000Z",
+    "timestamp_updated": "2021-11-04T19:15:36.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.6.2/waypoint_0.6.2_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.6.2/waypoint_0.6.2_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.6.2/waypoint_0.6.2_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.6.2"
+  },
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.1/waypoint_0.6.1_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.1/waypoint_0.6.1_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.1/waypoint_0.6.1_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.1/waypoint_0.6.1_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.1/waypoint_0.6.1_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.1/waypoint_0.6.1_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.1/waypoint_0.6.1_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2021-10-21T18:10:30.000Z"
+    },
+    "timestamp_created": "2021-10-21T18:10:30.000Z",
+    "timestamp_updated": "2021-10-21T18:10:30.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.6.1/waypoint_0.6.1_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.6.1/waypoint_0.6.1_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.6.1/waypoint_0.6.1_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.6.1"
+  },
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.0/waypoint_0.6.0_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.0/waypoint_0.6.0_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.0/waypoint_0.6.0_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.0/waypoint_0.6.0_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.0/waypoint_0.6.0_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.0/waypoint_0.6.0_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.6.0/waypoint_0.6.0_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2021-10-14T17:45:22.000Z"
+    },
+    "timestamp_created": "2021-10-14T17:45:22.000Z",
+    "timestamp_updated": "2021-10-14T17:45:22.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.6.0/waypoint_0.6.0_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.6.0/waypoint_0.6.0_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.6.0/waypoint_0.6.0_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.6.0"
+  },
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.2/waypoint_0.5.2_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.2/waypoint_0.5.2_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.2/waypoint_0.5.2_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.2/waypoint_0.5.2_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.2/waypoint_0.5.2_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.2/waypoint_0.5.2_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.2/waypoint_0.5.2_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2021-09-09T17:43:38.000Z"
+    },
+    "timestamp_created": "2021-09-09T17:43:38.000Z",
+    "timestamp_updated": "2021-09-09T17:43:38.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.5.2/waypoint_0.5.2_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.5.2/waypoint_0.5.2_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.5.2/waypoint_0.5.2_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.5.2"
+  },
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.1/waypoint_0.5.1_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.1/waypoint_0.5.1_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.1/waypoint_0.5.1_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.1/waypoint_0.5.1_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.1/waypoint_0.5.1_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.1/waypoint_0.5.1_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.1/waypoint_0.5.1_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2021-08-19T15:05:30.000Z"
+    },
+    "timestamp_created": "2021-08-19T15:05:30.000Z",
+    "timestamp_updated": "2021-08-19T15:05:30.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.5.1/waypoint_0.5.1_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.5.1/waypoint_0.5.1_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.5.1/waypoint_0.5.1_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.5.1"
+  },
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.0/waypoint_0.5.0_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.0/waypoint_0.5.0_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.0/waypoint_0.5.0_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.0/waypoint_0.5.0_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.0/waypoint_0.5.0_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.0/waypoint_0.5.0_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.5.0/waypoint_0.5.0_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2021-08-12T16:45:40.000Z"
+    },
+    "timestamp_created": "2021-08-12T16:45:40.000Z",
+    "timestamp_updated": "2021-08-12T16:45:40.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.5.0/waypoint_0.5.0_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.5.0/waypoint_0.5.0_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.5.0/waypoint_0.5.0_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.5.0"
+  },
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.2/waypoint_0.4.2_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.2/waypoint_0.4.2_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.2/waypoint_0.4.2_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.2/waypoint_0.4.2_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.2/waypoint_0.4.2_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.2/waypoint_0.4.2_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.2/waypoint_0.4.2_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2021-07-22T14:08:15.000Z"
+    },
+    "timestamp_created": "2021-07-22T14:08:15.000Z",
+    "timestamp_updated": "2021-07-22T14:08:15.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.4.2/waypoint_0.4.2_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.4.2/waypoint_0.4.2_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.4.2/waypoint_0.4.2_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.4.2"
+  },
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.1/waypoint_0.4.1_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.1/waypoint_0.4.1_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.1/waypoint_0.4.1_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.1/waypoint_0.4.1_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.1/waypoint_0.4.1_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.1/waypoint_0.4.1_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.1/waypoint_0.4.1_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2021-07-01T21:38:56.000Z"
+    },
+    "timestamp_created": "2021-07-01T21:38:56.000Z",
+    "timestamp_updated": "2021-07-01T21:38:56.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.4.1/waypoint_0.4.1_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.4.1/waypoint_0.4.1_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.4.1/waypoint_0.4.1_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.4.1"
+  },
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.0/waypoint_0.4.0_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.0/waypoint_0.4.0_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.0/waypoint_0.4.0_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.0/waypoint_0.4.0_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.0/waypoint_0.4.0_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.0/waypoint_0.4.0_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.4.0/waypoint_0.4.0_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2021-06-03T17:42:30.000Z"
+    },
+    "timestamp_created": "2021-06-03T17:42:30.000Z",
+    "timestamp_updated": "2021-06-03T17:42:30.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.4.0/waypoint_0.4.0_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.4.0/waypoint_0.4.0_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.4.0/waypoint_0.4.0_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.4.0"
+  },
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.2/waypoint_0.3.2_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.2/waypoint_0.3.2_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.2/waypoint_0.3.2_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.2/waypoint_0.3.2_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.2/waypoint_0.3.2_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.2/waypoint_0.3.2_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.2/waypoint_0.3.2_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2021-05-13T21:39:05.000Z"
+    },
+    "timestamp_created": "2021-05-13T21:39:05.000Z",
+    "timestamp_updated": "2021-05-13T21:39:05.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.3.2/waypoint_0.3.2_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.3.2/waypoint_0.3.2_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.3.2/waypoint_0.3.2_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.3.2"
+  },
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.1/waypoint_0.3.1_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.1/waypoint_0.3.1_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.1/waypoint_0.3.1_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.1/waypoint_0.3.1_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.1/waypoint_0.3.1_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.1/waypoint_0.3.1_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.1/waypoint_0.3.1_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2021-04-20T18:59:22.000Z"
+    },
+    "timestamp_created": "2021-04-20T18:59:22.000Z",
+    "timestamp_updated": "2021-04-20T18:59:22.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.3.1/waypoint_0.3.1_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.3.1/waypoint_0.3.1_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.3.1/waypoint_0.3.1_SHA256SUMS.348FFC4C.sig",
+      "https://releases.hashicorp.com/waypoint/0.3.1/waypoint_0.3.1_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.3.1"
+  },
+  {
+    "builds": [
+      {
+        "arch": "amd64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.0/waypoint_0.3.0_darwin_amd64.zip"
+      },
+      {
+        "arch": "arm64",
+        "os": "darwin",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.0/waypoint_0.3.0_darwin_arm64.zip"
+      },
+      {
+        "arch": "386",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.0/waypoint_0.3.0_linux_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.0/waypoint_0.3.0_linux_amd64.zip"
+      },
+      {
+        "arch": "arm",
+        "os": "linux",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.0/waypoint_0.3.0_linux_arm.zip"
+      },
+      {
+        "arch": "386",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.0/waypoint_0.3.0_windows_386.zip"
+      },
+      {
+        "arch": "amd64",
+        "os": "windows",
+        "url": "https://releases.hashicorp.com/waypoint/0.3.0/waypoint_0.3.0_windows_amd64.zip"
+      }
+    ],
+    "is_prerelease": false,
+    "license_class": "oss",
+    "name": "waypoint",
+    "status": {
+      "state": "supported",
+      "timestamp_updated": "2021-04-08T18:56:58.000Z"
+    },
+    "timestamp_created": "2021-04-08T18:56:58.000Z",
+    "timestamp_updated": "2021-04-08T18:56:58.000Z",
+    "url_shasums": "https://releases.hashicorp.com/waypoint/0.3.0/waypoint_0.3.0_SHA256SUMS",
+    "url_shasums_signatures": [
+      "https://releases.hashicorp.com/waypoint/0.3.0/waypoint_0.3.0_SHA256SUMS.sig",
+      "https://releases.hashicorp.com/waypoint/0.3.0/waypoint_0.3.0_SHA256SUMS.348FFC4C.sig",
+      "https://releases.hashicorp.com/waypoint/0.3.0/waypoint_0.3.0_SHA256SUMS.72D7468F.sig"
+    ],
+    "url_source_repository": "https://github.com/hashicorp/waypoint",
+    "version": "0.3.0"
+  }
+]
